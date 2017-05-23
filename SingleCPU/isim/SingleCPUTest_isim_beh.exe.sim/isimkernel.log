@@ -1,0 +1,10 @@
+Command line:
+   SingleCPUTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63604
+
+Tue May 23 18:39:32 2017
+
+
+ Elaboration Time: 0.0625 sec

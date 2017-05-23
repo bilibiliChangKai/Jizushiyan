@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="SingleCPU.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ADD.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ADD.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ADD.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ALU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControlUnit.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ControlUnit.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ControlUnit.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DataMemory.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="DataMemory.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="DataMemory.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InstructionMemory.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="InstructionMemory.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="InstructionMemory.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MainSource.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MainSource.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MainSource.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer32.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplexer32.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Multiplexer32.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer5.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplexer5.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Multiplexer5.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PC.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RF.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="RF.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="RF.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RegisterFile.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="RegisterFile.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="RegisterFile.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="SingleCPU.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SingleCPU.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SingleCPU.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SingleCPU.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="SingleCPU.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SingleCPU.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SingleCPU.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SingleCPU.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SingleCPU.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SingleCPU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SingleCPUTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SingleCPUTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SingleCPUTest_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SingleCPUTest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SingleCPU_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SingleCPU_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SingleCPU_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SingleCPU_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SingleCPU_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SingleCPU_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SingleCPU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Text_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Text_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Text_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="signZeroExtend.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="signZeroExtend.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="signZeroExtend.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1493774170" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1493774170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495535960" xil_pn:in_ck="-7720122516847005853" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1495535960">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADD.v"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="CU.v"/>
+      <outfile xil_pn:name="DM.v"/>
+      <outfile xil_pn:name="EXT.v"/>
+      <outfile xil_pn:name="IM.v"/>
+      <outfile xil_pn:name="MUX.v"/>
+      <outfile xil_pn:name="MUX32.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="RF.v"/>
+      <outfile xil_pn:name="SingleCPU.v"/>
+      <outfile xil_pn:name="SingleCPUTest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1495535694" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6219514443729926103" xil_pn:start_ts="1495535694">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495535694" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7429870206089050727" xil_pn:start_ts="1495535694">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493774170" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8305613887337325250" xil_pn:start_ts="1493774170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495535960" xil_pn:in_ck="-7720122516847005853" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1495535960">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADD.v"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="CU.v"/>
+      <outfile xil_pn:name="DM.v"/>
+      <outfile xil_pn:name="EXT.v"/>
+      <outfile xil_pn:name="IM.v"/>
+      <outfile xil_pn:name="MUX.v"/>
+      <outfile xil_pn:name="MUX32.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="RF.v"/>
+      <outfile xil_pn:name="SingleCPU.v"/>
+      <outfile xil_pn:name="SingleCPUTest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1495535970" xil_pn:in_ck="-7720122516847005853" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8120909818273520903" xil_pn:start_ts="1495535960">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SingleCPUTest_beh.prj"/>
+      <outfile xil_pn:name="SingleCPUTest_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1495535970" xil_pn:in_ck="7761180825973431878" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3659367240392233895" xil_pn:start_ts="1495535970">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SingleCPUTest_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740838" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1493740838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740838" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5610376947078931495" xil_pn:start_ts="1493740838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740838" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8305613887337325250" xil_pn:start_ts="1493740838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740838" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1493740838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740838" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-103261591860167401" xil_pn:start_ts="1493740838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740838" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1493740838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740838" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4837389035604396724" xil_pn:start_ts="1493740838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493860201" xil_pn:in_ck="5065640277902419381" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-279135196529048385" xil_pn:start_ts="1493860166">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="SingleCPU.lso"/>
+      <outfile xil_pn:name="SingleCPU.ngc"/>
+      <outfile xil_pn:name="SingleCPU.ngr"/>
+      <outfile xil_pn:name="SingleCPU.prj"/>
+      <outfile xil_pn:name="SingleCPU.stx"/>
+      <outfile xil_pn:name="SingleCPU.syr"/>
+      <outfile xil_pn:name="SingleCPU.xst"/>
+      <outfile xil_pn:name="SingleCPUTest_stx_beh.prj"/>
+      <outfile xil_pn:name="SingleCPU_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1493740845" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8119233664890089108" xil_pn:start_ts="1493740845">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493771871" xil_pn:in_ck="-3658791307009579088" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3970457705750621009" xil_pn:start_ts="1493771854">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="SingleCPU.bld"/>
+      <outfile xil_pn:name="SingleCPU.ngd"/>
+      <outfile xil_pn:name="SingleCPU_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1493771882" xil_pn:in_ck="-3658791307009579087" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1493771871">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="SingleCPU_map.map"/>
+      <outfile xil_pn:name="SingleCPU_map.mrp"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

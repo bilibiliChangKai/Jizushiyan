@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Single/SingleCPU/SingleCPUTest_isim_beh.exe -prj D:/Single/SingleCPU/SingleCPUTest_beh.prj work.SingleCPUTest work.glbl 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Single/SingleCPU/RF.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/PC.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/MUX32.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/MUX.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/IM.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/EXT.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/DM.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/CU.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/ALU.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/SingleCPU.v" into library work
+Analyzing Verilog file "D:/Single/SingleCPU/SingleCPUTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 158828 KB
+Fuse CPU Usage: 390 ms
+Compiling module ControlUnit
+Compiling module PC
+Compiling module InstructionMemory
+Compiling module RegisterFile
+Compiling module ALU
+Compiling module SignZeroExtend
+Compiling module DataMemory
+Compiling module Multiplexer5
+Compiling module Multiplexer32
+Compiling module SingleCPU
+Compiling module SingleCPUTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable D:/Single/SingleCPU/SingleCPUTest_isim_beh.exe
+Fuse Memory Usage: 165324 KB
+Fuse CPU Usage: 515 ms

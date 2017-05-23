@@ -1,0 +1,34 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Single/SingleCPU/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to D:/Single/SingleCPU/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "RF.v" in library work
+ERROR:HDLCompilers:26 - "RF.v" line 46 unexpected token: '@'
+ERROR:HDLCompilers:26 - "RF.v" line 46 unexpected token: '('
+ERROR:HDLCompilers:26 - "RF.v" line 46 unexpected token: ')'
+Module <RegisterFile> compiled
+ERROR:HDLCompilers:26 - "RF.v" line 47 expecting 'endmodule', found 'begin'
+Analysis of file <"RF.prj"> failed.
+--> 
+
+Total memory usage is 231696 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

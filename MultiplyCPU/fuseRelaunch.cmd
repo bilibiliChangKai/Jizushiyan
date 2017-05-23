@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/Multiply/MultiplyCPU/SingleCPUTest_isim_beh.exe" -prj "D:/Multiply/MultiplyCPU/SingleCPUTest_beh.prj" "work.SingleCPUTest" "work.glbl" 

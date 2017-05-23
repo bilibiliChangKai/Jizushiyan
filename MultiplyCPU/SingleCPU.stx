@@ -1,0 +1,62 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Multiply/MultiplyCPU/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to D:/Multiply/MultiplyCPU/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "WireToReg.v" in library work
+Compiling verilog file "RF.v" in library work
+Module <WireToReg> compiled
+Compiling verilog file "PCJUMP.v" in library work
+Module <RegisterFile> compiled
+Compiling verilog file "PC.v" in library work
+Module <PCJUMP> compiled
+Compiling verilog file "MUX4L_5.v" in library work
+Module <PC> compiled
+Compiling verilog file "MUX4L_32.v" in library work
+Module <MUX4L_5> compiled
+Compiling verilog file "MUX2L_32.v" in library work
+Module <MUX4L_32> compiled
+Compiling verilog file "IM.v" in library work
+Module <MUX2L_32> compiled
+Compiling verilog file "EXT.v" in library work
+Module <InstructionMemory> compiled
+WARNING:HDLCompilers:299 - "EXT.v" line 31 Too many digits specified in binary constant
+Compiling verilog file "DM.v" in library work
+Module <SignZeroExtend> compiled
+Compiling verilog file "CU.v" in library work
+Module <DataMemory> compiled
+Compiling verilog file "ALU.v" in library work
+Module <ControlUnit> compiled
+Compiling verilog file "SingleCPU.v" in library work
+Module <ALU> compiled
+Module <SingleCPU> compiled
+No errors in compilation
+Analysis of file <"SingleCPU.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> 
+
+Total memory usage is 229840 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

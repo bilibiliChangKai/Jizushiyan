@@ -1,0 +1,29 @@
+Command line:
+   SingleCPUTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59553
+
+Mon May 22 22:26:55 2017
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 852.046 Meg
+
+ Total Signals          : 131
+ Total Nets             : 783
+ Total Signal Drivers   : 54
+ Total Blocks           : 20
+ Total Primitive Blocks : 18
+ Total Processes        : 77
+ Total Traceable Variables  : 76
+ Total Scalar Nets and Variables : 3405
+Total Line Count : 326
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 537.997 Meg
+
+Tue May 23 00:03:04 2017
+

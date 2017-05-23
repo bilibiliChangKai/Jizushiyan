@@ -1,0 +1,3 @@
+verilog work "MainSource.v"
+verilog work "Text.v"
+verilog work "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v"

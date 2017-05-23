@@ -1,0 +1,50 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Multiply/MultiplyCPU/SingleCPUTest_isim_beh.exe -prj D:/Multiply/MultiplyCPU/SingleCPUTest_beh.prj work.SingleCPUTest work.glbl 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/WireToReg.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/RF.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/PCJUMP.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/PC.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/MUX4L_5.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/MUX4L_32.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/MUX2L_32.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/IM.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/EXT.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/DM.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/CU.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/ALU.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/SingleCPU.v" into library work
+Analyzing Verilog file "D:/Multiply/MultiplyCPU/SingleCPUTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Multiply/MultiplyCPU/SingleCPUTest.v" Line 46: Port PCWre is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/Multiply/MultiplyCPU/SingleCPU.v" Line 151: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Multiply/MultiplyCPU/SingleCPU.v" Line 152: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Multiply/MultiplyCPU/SingleCPU.v" Line 153: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Multiply/MultiplyCPU/SingleCPU.v" Line 150: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 158828 KB
+Fuse CPU Usage: 484 ms
+Compiling module ControlUnit
+Compiling module PC
+Compiling module InstructionMemory
+Compiling module RegisterFile
+Compiling module ALU
+Compiling module SignZeroExtend
+Compiling module DataMemory
+Compiling module PCJUMP
+Compiling module WireToReg
+Compiling module MUX2L_32
+Compiling module MUX4L_5
+Compiling module MUX4L_32
+Compiling module SingleCPU
+Compiling module SingleCPUTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 15 Verilog Units
+Built simulation executable D:/Multiply/MultiplyCPU/SingleCPUTest_isim_beh.exe
+Fuse Memory Usage: 165324 KB
+Fuse CPU Usage: 718 ms

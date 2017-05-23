@@ -1,0 +1,5 @@
+set -tmpdir "D:/Multiply/MultiplyCPU/xst/projnav.tmp"
+set -xsthdpdir "D:/Multiply/MultiplyCPU/xst"
+elaborate
+-ifn WireToReg.prj
+-ifmt mixed
