@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Test/Test/Testtest_isim_beh.exe -prj D:/Test/Test/Testtest_beh.prj work.Testtest work.glbl 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Test/Test/WireToReg.v" into library work
+Analyzing Verilog file "D:/Test/Test/Test.v" into library work
+Analyzing Verilog file "D:/Test/Test/Testtest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/Test/Test/Test.v" Line 32: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Test/Test/Test.v" Line 33: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Test/Test/Test.v" Line 34: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Test/Test/Test.v" Line 35: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Test/Test/Test.v" Line 31: Size mismatch in connection of port <Enable>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 158892 KB
+Fuse CPU Usage: 358 ms
+Compiling module WireToReg
+Compiling module Test
+Compiling module Testtest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable D:/Test/Test/Testtest_isim_beh.exe
+Fuse Memory Usage: 165388 KB
+Fuse CPU Usage: 405 ms
